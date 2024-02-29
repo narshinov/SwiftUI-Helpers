@@ -11,6 +11,9 @@
 		07A83EF22B90C00A00E8ACAF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A83EF12B90C00A00E8ACAF /* ContentView.swift */; };
 		07A83EF42B90C00C00E8ACAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07A83EF32B90C00C00E8ACAF /* Assets.xcassets */; };
 		07A83EF72B90C00C00E8ACAF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07A83EF62B90C00C00E8ACAF /* Preview Assets.xcassets */; };
+		07A83F002B90C09B00E8ACAF /* TextFieldRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A83EFF2B90C09B00E8ACAF /* TextFieldRepresentable.swift */; };
+		07A83F022B90C10600E8ACAF /* WrappableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A83F012B90C10600E8ACAF /* WrappableTextField.swift */; };
+		07A83F042B90C2B400E8ACAF /* TextFieldExempleContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A83F032B90C2B400E8ACAF /* TextFieldExempleContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		07A83EF12B90C00A00E8ACAF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		07A83EF32B90C00C00E8ACAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07A83EF62B90C00C00E8ACAF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		07A83EFF2B90C09B00E8ACAF /* TextFieldRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldRepresentable.swift; sourceTree = "<group>"; };
+		07A83F012B90C10600E8ACAF /* WrappableTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrappableTextField.swift; sourceTree = "<group>"; };
+		07A83F032B90C2B400E8ACAF /* TextFieldExempleContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExempleContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +57,7 @@
 		07A83EEE2B90C00A00E8ACAF /* SwiftUIHelpers */ = {
 			isa = PBXGroup;
 			children = (
+				07A83EFD2B90C07F00E8ACAF /* UIComponents */,
 				07A83EEF2B90C00A00E8ACAF /* SwiftUIHelpersApp.swift */,
 				07A83EF12B90C00A00E8ACAF /* ContentView.swift */,
 				07A83EF32B90C00C00E8ACAF /* Assets.xcassets */,
@@ -65,6 +72,24 @@
 				07A83EF62B90C00C00E8ACAF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		07A83EFD2B90C07F00E8ACAF /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				07A83EFE2B90C08800E8ACAF /* TextField */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		07A83EFE2B90C08800E8ACAF /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				07A83EFF2B90C09B00E8ACAF /* TextFieldRepresentable.swift */,
+				07A83F012B90C10600E8ACAF /* WrappableTextField.swift */,
+				07A83F032B90C2B400E8ACAF /* TextFieldExempleContentView.swift */,
+			);
+			path = TextField;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +163,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				07A83EF22B90C00A00E8ACAF /* ContentView.swift in Sources */,
+				07A83F002B90C09B00E8ACAF /* TextFieldRepresentable.swift in Sources */,
+				07A83F022B90C10600E8ACAF /* WrappableTextField.swift in Sources */,
 				07A83EF02B90C00A00E8ACAF /* SwiftUIHelpersApp.swift in Sources */,
+				07A83F042B90C2B400E8ACAF /* TextFieldExempleContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
