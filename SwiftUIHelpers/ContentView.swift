@@ -16,7 +16,12 @@ struct ContentView: View {
                 } label: {
                     Label("TextFieldRepresentable", systemImage: "textformat")
                 }
-
+                
+                NavigationLink {
+                    WrappingHStackContentView()
+                } label: {
+                    Label("WrappingHStack", systemImage: "rectangle.stack")
+                }
                 
             }
         }

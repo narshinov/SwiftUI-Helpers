@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		079828D32B94DBCE00EF3D78 /* WrappingHStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079828D22B94DBCE00EF3D78 /* WrappingHStack.swift */; };
+		079828D52B94DCC100EF3D78 /* WrappingHStackContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079828D42B94DCC100EF3D78 /* WrappingHStackContentView.swift */; };
+		079828D82B94DE6600EF3D78 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 079828D72B94DE6600EF3D78 /* Images.xcassets */; };
+		079828DA2B94E73B00EF3D78 /* WrappingHStackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079828D92B94E73B00EF3D78 /* WrappingHStackCell.swift */; };
+		079828DD2B94E8AF00EF3D78 /* InterestsType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079828DC2B94E8AF00EF3D78 /* InterestsType.swift */; };
+		079828DF2B94E8DD00EF3D78 /* WrappingHStackCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079828DE2B94E8DD00EF3D78 /* WrappingHStackCellModel.swift */; };
+		079828E12B95169B00EF3D78 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 079828E02B95169B00EF3D78 /* Colors.xcassets */; };
 		07A83EF02B90C00A00E8ACAF /* SwiftUIHelpersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A83EEF2B90C00A00E8ACAF /* SwiftUIHelpersApp.swift */; };
 		07A83EF22B90C00A00E8ACAF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A83EF12B90C00A00E8ACAF /* ContentView.swift */; };
 		07A83EF42B90C00C00E8ACAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07A83EF32B90C00C00E8ACAF /* Assets.xcassets */; };
@@ -17,6 +24,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		079828D22B94DBCE00EF3D78 /* WrappingHStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrappingHStack.swift; sourceTree = "<group>"; };
+		079828D42B94DCC100EF3D78 /* WrappingHStackContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrappingHStackContentView.swift; sourceTree = "<group>"; };
+		079828D72B94DE6600EF3D78 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		079828D92B94E73B00EF3D78 /* WrappingHStackCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrappingHStackCell.swift; sourceTree = "<group>"; };
+		079828DC2B94E8AF00EF3D78 /* InterestsType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestsType.swift; sourceTree = "<group>"; };
+		079828DE2B94E8DD00EF3D78 /* WrappingHStackCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrappingHStackCellModel.swift; sourceTree = "<group>"; };
+		079828E02B95169B00EF3D78 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		07A83EEC2B90C00A00E8ACAF /* SwiftUIHelpers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIHelpers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07A83EEF2B90C00A00E8ACAF /* SwiftUIHelpersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIHelpersApp.swift; sourceTree = "<group>"; };
 		07A83EF12B90C00A00E8ACAF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -38,6 +52,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		079828D12B94DBB600EF3D78 /* WrappingHStack */ = {
+			isa = PBXGroup;
+			children = (
+				079828DB2B94E8A000EF3D78 /* Models */,
+				079828D22B94DBCE00EF3D78 /* WrappingHStack.swift */,
+				079828D42B94DCC100EF3D78 /* WrappingHStackContentView.swift */,
+				079828D92B94E73B00EF3D78 /* WrappingHStackCell.swift */,
+			);
+			path = WrappingHStack;
+			sourceTree = "<group>";
+		};
+		079828D62B94DE5700EF3D78 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				079828D72B94DE6600EF3D78 /* Images.xcassets */,
+				079828E02B95169B00EF3D78 /* Colors.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		079828DB2B94E8A000EF3D78 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				079828DC2B94E8AF00EF3D78 /* InterestsType.swift */,
+				079828DE2B94E8DD00EF3D78 /* WrappingHStackCellModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		07A83EE32B90C00A00E8ACAF = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +100,7 @@
 		07A83EEE2B90C00A00E8ACAF /* SwiftUIHelpers */ = {
 			isa = PBXGroup;
 			children = (
+				079828D62B94DE5700EF3D78 /* Resources */,
 				07A83EFD2B90C07F00E8ACAF /* UIComponents */,
 				07A83EEF2B90C00A00E8ACAF /* SwiftUIHelpersApp.swift */,
 				07A83EF12B90C00A00E8ACAF /* ContentView.swift */,
@@ -77,6 +121,7 @@
 		07A83EFD2B90C07F00E8ACAF /* UIComponents */ = {
 			isa = PBXGroup;
 			children = (
+				079828D12B94DBB600EF3D78 /* WrappingHStack */,
 				07A83EFE2B90C08800E8ACAF /* TextField */,
 			);
 			path = UIComponents;
@@ -150,6 +195,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				079828D82B94DE6600EF3D78 /* Images.xcassets in Resources */,
+				079828E12B95169B00EF3D78 /* Colors.xcassets in Resources */,
 				07A83EF72B90C00C00E8ACAF /* Preview Assets.xcassets in Resources */,
 				07A83EF42B90C00C00E8ACAF /* Assets.xcassets in Resources */,
 			);
@@ -163,10 +210,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				07A83EF22B90C00A00E8ACAF /* ContentView.swift in Sources */,
+				079828DF2B94E8DD00EF3D78 /* WrappingHStackCellModel.swift in Sources */,
+				079828DA2B94E73B00EF3D78 /* WrappingHStackCell.swift in Sources */,
 				07A83F002B90C09B00E8ACAF /* TextFieldRepresentable.swift in Sources */,
 				07A83F022B90C10600E8ACAF /* WrappableTextField.swift in Sources */,
+				079828D32B94DBCE00EF3D78 /* WrappingHStack.swift in Sources */,
+				079828DD2B94E8AF00EF3D78 /* InterestsType.swift in Sources */,
 				07A83EF02B90C00A00E8ACAF /* SwiftUIHelpersApp.swift in Sources */,
 				07A83F042B90C2B400E8ACAF /* TextFieldExempleContentView.swift in Sources */,
+				079828D52B94DCC100EF3D78 /* WrappingHStackContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
