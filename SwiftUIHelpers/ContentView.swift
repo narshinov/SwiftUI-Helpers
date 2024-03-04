@@ -18,6 +18,12 @@ struct ContentView: View {
                 }
                 
                 NavigationLink {
+                    TextFieldWithError()
+                } label: {
+                    Label("TextFieldWithError", systemImage: "textformat")
+                }
+                
+                NavigationLink {
                     WrappingHStackContentView()
                 } label: {
                     Label("WrappingHStack", systemImage: "rectangle.stack")

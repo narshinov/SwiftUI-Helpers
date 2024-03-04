@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07295E2A2B95D6F5005C8F6F /* TextFieldWithError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07295E292B95D6F5005C8F6F /* TextFieldWithError.swift */; };
+		07295E2D2B95D8EE005C8F6F /* HideViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07295E2C2B95D8EE005C8F6F /* HideViewModifier.swift */; };
+		07295E302B95D930005C8F6F /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07295E2F2B95D930005C8F6F /* View+Extensions.swift */; };
 		079828D32B94DBCE00EF3D78 /* WrappingHStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079828D22B94DBCE00EF3D78 /* WrappingHStack.swift */; };
 		079828D52B94DCC100EF3D78 /* WrappingHStackContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079828D42B94DCC100EF3D78 /* WrappingHStackContentView.swift */; };
 		079828D82B94DE6600EF3D78 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 079828D72B94DE6600EF3D78 /* Images.xcassets */; };
@@ -24,6 +27,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07295E292B95D6F5005C8F6F /* TextFieldWithError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldWithError.swift; sourceTree = "<group>"; };
+		07295E2C2B95D8EE005C8F6F /* HideViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideViewModifier.swift; sourceTree = "<group>"; };
+		07295E2F2B95D930005C8F6F /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 		079828D22B94DBCE00EF3D78 /* WrappingHStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrappingHStack.swift; sourceTree = "<group>"; };
 		079828D42B94DCC100EF3D78 /* WrappingHStackContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrappingHStackContentView.swift; sourceTree = "<group>"; };
 		079828D72B94DE6600EF3D78 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -52,6 +58,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07295E2B2B95D8D7005C8F6F /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				07295E2C2B95D8EE005C8F6F /* HideViewModifier.swift */,
+			);
+			path = ViewModifiers;
+			sourceTree = "<group>";
+		};
+		07295E2E2B95D91F005C8F6F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				07295E2F2B95D930005C8F6F /* View+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		079828D12B94DBB600EF3D78 /* WrappingHStack */ = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +122,8 @@
 		07A83EEE2B90C00A00E8ACAF /* SwiftUIHelpers */ = {
 			isa = PBXGroup;
 			children = (
+				07295E2E2B95D91F005C8F6F /* Extensions */,
+				07295E2B2B95D8D7005C8F6F /* ViewModifiers */,
 				079828D62B94DE5700EF3D78 /* Resources */,
 				07A83EFD2B90C07F00E8ACAF /* UIComponents */,
 				07A83EEF2B90C00A00E8ACAF /* SwiftUIHelpersApp.swift */,
@@ -133,6 +157,7 @@
 				07A83EFF2B90C09B00E8ACAF /* TextFieldRepresentable.swift */,
 				07A83F012B90C10600E8ACAF /* WrappableTextField.swift */,
 				07A83F032B90C2B400E8ACAF /* TextFieldExempleContentView.swift */,
+				07295E292B95D6F5005C8F6F /* TextFieldWithError.swift */,
 			);
 			path = TextField;
 			sourceTree = "<group>";
@@ -210,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				07A83EF22B90C00A00E8ACAF /* ContentView.swift in Sources */,
+				07295E2D2B95D8EE005C8F6F /* HideViewModifier.swift in Sources */,
 				079828DF2B94E8DD00EF3D78 /* WrappingHStackCellModel.swift in Sources */,
 				079828DA2B94E73B00EF3D78 /* WrappingHStackCell.swift in Sources */,
 				07A83F002B90C09B00E8ACAF /* TextFieldRepresentable.swift in Sources */,
@@ -217,6 +243,8 @@
 				079828D32B94DBCE00EF3D78 /* WrappingHStack.swift in Sources */,
 				079828DD2B94E8AF00EF3D78 /* InterestsType.swift in Sources */,
 				07A83EF02B90C00A00E8ACAF /* SwiftUIHelpersApp.swift in Sources */,
+				07295E302B95D930005C8F6F /* View+Extensions.swift in Sources */,
+				07295E2A2B95D6F5005C8F6F /* TextFieldWithError.swift in Sources */,
 				07A83F042B90C2B400E8ACAF /* TextFieldExempleContentView.swift in Sources */,
 				079828D52B94DCC100EF3D78 /* WrappingHStackContentView.swift in Sources */,
 			);
