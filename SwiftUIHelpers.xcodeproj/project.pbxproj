@@ -24,6 +24,9 @@
 		07A83F002B90C09B00E8ACAF /* TextFieldRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A83EFF2B90C09B00E8ACAF /* TextFieldRepresentable.swift */; };
 		07A83F022B90C10600E8ACAF /* WrappableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A83F012B90C10600E8ACAF /* WrappableTextField.swift */; };
 		07A83F042B90C2B400E8ACAF /* TextFieldExempleContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A83F032B90C2B400E8ACAF /* TextFieldExempleContentView.swift */; };
+		07A960EA2B95FD47001891D9 /* ContentText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A960E92B95FD47001891D9 /* ContentText.swift */; };
+		07A960EC2B95FF0C001891D9 /* LinkedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A960EB2B95FF0C001891D9 /* LinkedText.swift */; };
+		07A960EE2B95FF4D001891D9 /* LinkedTextContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A960ED2B95FF4D001891D9 /* LinkedTextContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +48,9 @@
 		07A83EFF2B90C09B00E8ACAF /* TextFieldRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldRepresentable.swift; sourceTree = "<group>"; };
 		07A83F012B90C10600E8ACAF /* WrappableTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrappableTextField.swift; sourceTree = "<group>"; };
 		07A83F032B90C2B400E8ACAF /* TextFieldExempleContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExempleContentView.swift; sourceTree = "<group>"; };
+		07A960E92B95FD47001891D9 /* ContentText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentText.swift; sourceTree = "<group>"; };
+		07A960EB2B95FF0C001891D9 /* LinkedText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedText.swift; sourceTree = "<group>"; };
+		07A960ED2B95FF4D001891D9 /* LinkedTextContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedTextContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +151,7 @@
 		07A83EFD2B90C07F00E8ACAF /* UIComponents */ = {
 			isa = PBXGroup;
 			children = (
+				07A960E42B95FAB3001891D9 /* TapableText */,
 				079828D12B94DBB600EF3D78 /* WrappingHStack */,
 				07A83EFE2B90C08800E8ACAF /* TextField */,
 			);
@@ -160,6 +167,16 @@
 				07295E292B95D6F5005C8F6F /* TextFieldWithError.swift */,
 			);
 			path = TextField;
+			sourceTree = "<group>";
+		};
+		07A960E42B95FAB3001891D9 /* TapableText */ = {
+			isa = PBXGroup;
+			children = (
+				07A960E92B95FD47001891D9 /* ContentText.swift */,
+				07A960EB2B95FF0C001891D9 /* LinkedText.swift */,
+				07A960ED2B95FF4D001891D9 /* LinkedTextContentView.swift */,
+			);
+			path = TapableText;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,11 +258,14 @@
 				07A83F002B90C09B00E8ACAF /* TextFieldRepresentable.swift in Sources */,
 				07A83F022B90C10600E8ACAF /* WrappableTextField.swift in Sources */,
 				079828D32B94DBCE00EF3D78 /* WrappingHStack.swift in Sources */,
+				07A960EC2B95FF0C001891D9 /* LinkedText.swift in Sources */,
 				079828DD2B94E8AF00EF3D78 /* InterestsType.swift in Sources */,
 				07A83EF02B90C00A00E8ACAF /* SwiftUIHelpersApp.swift in Sources */,
 				07295E302B95D930005C8F6F /* View+Extensions.swift in Sources */,
+				07A960EE2B95FF4D001891D9 /* LinkedTextContentView.swift in Sources */,
 				07295E2A2B95D6F5005C8F6F /* TextFieldWithError.swift in Sources */,
 				07A83F042B90C2B400E8ACAF /* TextFieldExempleContentView.swift in Sources */,
+				07A960EA2B95FD47001891D9 /* ContentText.swift in Sources */,
 				079828D52B94DCC100EF3D78 /* WrappingHStackContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

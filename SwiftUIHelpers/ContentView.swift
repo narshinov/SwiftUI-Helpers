@@ -24,6 +24,12 @@ struct ContentView: View {
                 }
                 
                 NavigationLink {
+                    LinkedTextContentView()
+                } label: {
+                    Label("LinkedText", systemImage: "hand.point.up.left.and.text")
+                }
+                
+                NavigationLink {
                     WrappingHStackContentView()
                 } label: {
                     Label("WrappingHStack", systemImage: "rectangle.stack")
